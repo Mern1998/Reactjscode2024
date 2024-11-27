@@ -1,0 +1,75 @@
+/* .App {
+  text-align: center;
+  background-color:white;
+  min-height: 100vh;
+  color: white;
+}
+h1{
+  margin: 0;
+}
+.header{
+  background-color: rgb(23,23,135);
+  padding: 8px;
+}
+.main{
+  display: flex;
+  justify-content:space-between;
+  margin: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.movie{
+  background-color: rgb(161,159,159);
+  color: black;
+  border: 1px solid gray;
+  padding: 1px;
+  font-weight: bold;
+  text-align:center;
+  width: 22%;
+  margin-top: 14px;
+}
+.movie img{
+height: 200px;
+width: 100%;
+}
+
+ */
+
+
+ /* todo ka css style */
+ .App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+ }
+
+
+h1{
+  margin: 0;
+
+}
+.header{
+  background-color: aqua;
+  padding: 15px;
+  width: 100%;
+}
+.form{
+  margin-top: 20px;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.data_re{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 0px 9px 0px 9px;
+  /* background-color: rgb(236, 233, 233); */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

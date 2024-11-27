@@ -1,0 +1,85 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+  }
+  
+  .container {
+    background-color: #d7d5d0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .heading_text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading_one {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .heading_two {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .total_amount_card {
+    background-color: #f9f9f9;
+    
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card_text {
+    margin: 0;
+  }
+  
+  .total_amount_para {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .input_area {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input_field {
+    
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    
+  }
+  
+  button {
+    
+    background-color: #df1a5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn_one {
+    margin-right: 10px;
+  }
+  
